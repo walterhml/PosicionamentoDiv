@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionar div</title>
+    <style>
+        .container {
+            background-color: blue;
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .display {
+            display: flex;
+            background-color: red;
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        .displayDois {
+            display: flex;
+            position: relative;
+            background-color: cadetblue;
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            top: 100px;
+        }
+        .text, .text-dois{
+            background-color: chocolate;
+            color: black;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <h1>Posicionamento de Divs com CSS</h1>
+    </div>
+    <div class="container">
+
+        <div class="display">
+
+            <div class="displayDois">
+
+            </div>
+        </div>
+    </div>
+    <div class="text-dois">
+        <h1>Feito por Walter Souza</h1>
+    </div>
+</body>
+
+</html>
